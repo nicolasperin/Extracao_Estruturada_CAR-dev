@@ -150,3 +150,5 @@ Se o OCR não contiver dados suficientes para preencher quase nada:
 → Retorne o JSON completo do schema
 → Com todos os campos null ou listas vazias
 → Sem inventar nada
+
+
