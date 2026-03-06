@@ -43,8 +43,8 @@ def coletar_textos(obj):
 
 
 def main():
-    entrada = "MANUAL.pdf"
-    saida = "MANUAL_OCR.txt"
+    entrada = "OCR/Input/Documento.pdf"
+    saida = "OCR/Output/Documento_OCR.txt"
 
     ocr = PaddleOCR(
         lang="pt",
