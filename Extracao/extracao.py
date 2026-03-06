@@ -14,13 +14,13 @@ MODEL = "qwen3.5:9b"
 
 client = Client(host=OLLAMA_HOST)
 
-DOCUMENTO_JSON = Path("DocumentoOCR.json")
-PROMPT_TXT = Path("Prompt.txt")
-IMG_ERD = Path("ERD.jpg")
-JSON_MODELO = Path("Modelo.json")
+DOCUMENTO_JSON = Path("OCR/Output/DocumentoOCR.json")
+PROMPT_TXT = Path("Extracao/Input/Prompt.txt")
+IMG_ERD = Path("Extracao/Input/ERD.jpg")
+JSON_MODELO = Path("Extracao/Input/Modelo.json")
 
-OUTPUT_FILE = Path("resultado_extracao.json")
-RAW_FILE = Path("ollama_raw_response.txt")
+OUTPUT_FILE = Path("Extracao/Output/resultado_extracao.json")
+RAW_FILE = Path("Extracao/Output/ollama_raw_response.txt")
 
 MAX_DOC_CHARS = 45_000
 MAX_PROMPT_CHARS = 10_000
